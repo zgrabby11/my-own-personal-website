@@ -67,6 +67,14 @@ nav a:hover {
     background-color: #e6f0ff;
 }
 
+img.logo-image {
+    max-width: 120px;
+    height: auto;
+    border-radius: 3%;
+    margin: 1rem auto;
+    display: block;
+}
+
 img.resume-image {
     max-width: 120px;
     height: auto;
