@@ -139,7 +139,7 @@ main {
 
 .resume-image img {
   display: block;
-  max-width: 1050px;
+  max-width: 1200px;
   width: 90%;
   height: auto;
   margin: 1rem auto 2rem auto;
@@ -151,7 +151,7 @@ main {
 
 .port-image img {
   display: block;
-  max-width: 400px;
+  max-width: 800px;
   width: 90%;
   height: auto;
   margin: 1rem auto 2rem auto;
