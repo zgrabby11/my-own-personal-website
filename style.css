@@ -68,27 +68,27 @@ nav a:hover {
 }
 
 .resume-image img {
-    max-width: 120px;
+    max-width: 700px;
     height: auto;
-    border-radius: 5%;
+    border-radius: 3%;
     margin: 1rem auto;
     display: block;
 }
 
 img.picofme-image {
-  max-width: 200px;
+  max-width: 500px;
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 5px;
   margin: 1rem auto;
   display: block;
 }
 
 img.port-image {
-  max-width: 300px;
+  max-width: 500px;
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin: 1rem auto;
   display: block;
