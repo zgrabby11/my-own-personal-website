@@ -140,7 +140,7 @@ img.picofme-image {
 img.resume-image {
   display: block;
   max-width: 900px;
-  width: auto;
+  width: 100%;
   height: auto;
   margin: 1rem auto 2rem auto;
   border-radius: 15px;
@@ -151,8 +151,8 @@ img.resume-image {
 
 img.port-image {
   display: block;
-  max-width: 800px;
-  width: auto;
+  max-width: 700px;
+  width: 100%;
   height: auto;
   margin: 1rem auto 2rem auto;
   border-radius: 15px;
