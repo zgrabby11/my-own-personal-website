@@ -2,9 +2,9 @@
   --background: #f9f9f9;
   --surface: #ffffff;
   --primary-text: #222222;
-  --secondary-text: #555555;
-  --accent: #555555; 
-  --link-color: #555555;
+  --secondary-text: #ff8888;
+  --accent: #ff8888; 
+  --link-color: #ff8888;
   --border-color: #e0e0e0;
   --shadow-color: rgba(0, 0, 0, 0.05);
   --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -139,7 +139,7 @@ main {
 
 .resume-image img {
   display: block;
-  max-width: 950px;
+  max-width: 1050px;
   width: 90%;
   height: auto;
   margin: 1rem auto 2rem auto;
@@ -163,7 +163,7 @@ main {
 
 .portfolio .project,
 .certifications .cert-list {
-  display: flex;
+  display: block;
   gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
