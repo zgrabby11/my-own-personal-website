@@ -3,15 +3,15 @@
   --surface: #ffffff;
   --primary-text: #222222;
   --secondary-text: #555555;
-  --accent: #ff6f61; /* warm coral */
-  --link-color: #ff6f61;
+  --accent: #555555; 
+  --link-color: #555555;
   --border-color: #e0e0e0;
   --shadow-color: rgba(0, 0, 0, 0.05);
   --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-body: 'Open Sans', Arial, sans-serif;
 }
 
-/* Global Styles */
+
 * {
   box-sizing: border-box;
 }
@@ -35,7 +35,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Sticky Header */
+
 header {
   position: sticky;
   top: 0;
@@ -46,7 +46,7 @@ header {
   text-align: center;
 }
 
-/* Logo image in header */
+
 header .resume-image img {
   max-width: 120px;
   height: auto;
@@ -56,7 +56,7 @@ header .resume-image img {
   box-shadow: 0 4px 8px var(--shadow-color);
 }
 
-/* Navigation */
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -78,7 +78,7 @@ nav ul li a.active {
   color: var(--accent);
 }
 
-/* Headings */
+
 h1, h2, h3 {
   font-family: var(--font-heading);
   color: var(--primary-text);
@@ -104,7 +104,7 @@ h3 {
   color: var(--accent);
 }
 
-/* Main Content Container */
+
 main {
   max-width: 900px;
   margin: 2rem auto 4rem auto;
@@ -114,7 +114,7 @@ main {
   box-shadow: 0 6px 15px var(--shadow-color);
 }
 
-/* Content Boxes */
+
 .bio, .project, .contact-info, .contact-form, .cert-list, .experience {
   background-color: #fff;
   padding: 1.5rem 2rem;
@@ -124,8 +124,7 @@ main {
   box-shadow: 0 4px 8px var(--shadow-color);
 }
 
-/* Image Styling */
-/* Profile Image (about.html) */
+
 .picofme-image {
   display: block;
   max-width: 400px;
@@ -137,10 +136,10 @@ main {
   float: none;
 }
 
-/* Resume Image */
+
 .resume-image img {
   display: block;
-  max-width: 400px;
+  max-width: 950px;
   width: 90%;
   height: auto;
   margin: 1rem auto 2rem auto;
@@ -149,8 +148,8 @@ main {
   float: none;
 }
 
-/* Portfolio images */
-.portfolio img {
+
+.port-image img {
   display: block;
   max-width: 400px;
   width: 90%;
@@ -161,7 +160,7 @@ main {
   float: none;
 }
 
-/* Portfolio and Certifications - Flexbox Layout */
+
 .portfolio .project,
 .certifications .cert-list {
   display: flex;
