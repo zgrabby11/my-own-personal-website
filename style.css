@@ -219,6 +219,31 @@ footer {
   color: var(--secondary-text);
 }
 
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social-box {
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social-box:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+
 
 @media (max-width: 700px) {
   nav ul {
