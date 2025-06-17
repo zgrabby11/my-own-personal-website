@@ -68,23 +68,7 @@ nav a:hover {
 }
 
 .resume-image img {
-    max-width: 500px;
-    height: auto;
-    border-radius: 3%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.picofme-image img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 5%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.port-image img{
-    max-width: 300px;
+    max-width: 120px;
     height: auto;
     border-radius: 5%;
     margin: 1rem auto;
@@ -121,6 +105,14 @@ section.flex img {
 
 section.flex div {
     flex: 2;
+}
+
+/* Floating Image (optional use) */
+img.floating {
+    float: right;
+    margin: 0 0 1rem 2rem;
+    max-width: 250px;
+    border-radius: 10px;
 }
 
 .contact-form form {
