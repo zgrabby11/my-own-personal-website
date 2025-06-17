@@ -67,8 +67,8 @@ nav a:hover {
     background-color: #e6f0ff;
 }
 
-.resume-image img {
-    max-width: 700px;
+img.resume-image {
+    max-width: 120px;
     height: auto;
     border-radius: 3%;
     margin: 1rem auto;
