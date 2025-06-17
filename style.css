@@ -125,7 +125,7 @@ main {
 }
 
 
-.picofme-image {
+img.picofme-image {
   display: block;
   max-width: 400px;
   width: 90%;
@@ -137,7 +137,7 @@ main {
 }
 
 
-.resume-image img {
+img.resume-image {
   display: block;
   max-width: 1500px;
   width: 90%;
@@ -149,7 +149,7 @@ main {
 }
 
 
-.port-image img {
+img.port-image {
   display: block;
   max-width: 1000px;
   width: 90%;
