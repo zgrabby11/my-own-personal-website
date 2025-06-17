@@ -197,7 +197,7 @@ form button {
   padding: 0.8rem 2rem;
   background-color: var(--accent);
   border: none;
-  color: white;
+  color: #333;
   font-weight: 700;
   font-size: 1.1rem;
   border-radius: 10px;
