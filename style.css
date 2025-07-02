@@ -37,6 +37,7 @@ a:hover {
 
 
 header {
+  transition: height 0.3s ease, padding 0.3s ease;
   position: sticky;
   top: 0;
   z-index: 1000;
