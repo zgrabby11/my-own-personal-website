@@ -55,8 +55,7 @@ header {
 header .resume-image img {
   max-width: 130px;
   max-height: 90px;
-  margin: 0 auto 0.5rem auto;
-  display: block;
+  margin: 0 auto 0.5rem auto;;
   border-radius: 12px;
   box-shadow: 0 4px 8px var(--shadow-color);
   gap: .5rem;
