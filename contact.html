@@ -7,59 +7,60 @@
     <title>Home - Zach's Website</title>
 </head>
 <body>
-    <header>
-        <div class="resume-image"> 
-            <a href="index.html">
-                <img class="logo-image" src="images/logo.png" alt="Logo">
-            </a>
+  <div class="page-wrapper">
+      <header>
+          <div class="resume-image"> 
+              <a href="index.html">
+                  <img class="logo-image" src="images/logo.png" alt="Logo">
+              </a>
+          </div>
+          <h1>Zachary Grabowski</h1>
+          <p>Aspiring College Graduate Looking for the Next Step of His Career</p>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="cert.html">Certifications</a></li>
+                  <li><a href="port.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+
+    <main class="contact">
+      <h2>Contact Me</h2>
+      <section class="contact-info">
+        <p>Email me at: <a href="mailto:grabowskizach11@gmail.com">grabowskizach11@gmail.com</a></p>
+        <h3>Social Links</h3>
+        <div class="social-icons">
+          <a rel="insta" href="https://www.instagram.com/zgrabby11/" class="social-box">Instagram</a>
+          <a rel="linkin" href="https://www.linkedin.com/in/zach-grabowski-959647246" class="social-box">LinkedIn</a>
+          <a rel="x" href="https://x.com/zgrabby11" class="social-box">X (Twitter)</a>
+          <a rel="ind" href="https://profile.indeed.com/" class="social-box">Indeed</a>
+          <a rel="fb" href="https://www.facebook.com/zach.grabowski.35" class="social-box">Facebook</a>
         </div>
-        <h1>Zachary Grabowski</h1>
-        <p>Aspiring College Graduate Looking for the Next Step of His Career</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="cert.html">Certifications</a></li>
-                <li><a href="port.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+      </section>
 
-  <main class="contact">
-    <h2>Contact Me</h2>
-    <section class="contact-info">
-      <p>Email me at: <a href="mailto:grabowskizach11@gmail.com">grabowskizach11@gmail.com</a></p>
-      <h3>Social Links</h3>
-      <div class="social-icons">
-        <a rel="insta" href="https://www.instagram.com/zgrabby11/" class="social-box">Instagram</a>
-        <a rel="linkin" href="https://www.linkedin.com/in/zach-grabowski-959647246" class="social-box">LinkedIn</a>
-        <a rel="x" href="https://x.com/zgrabby11" class="social-box">X (Twitter)</a>
-        <a rel="ind" href="https://profile.indeed.com/" class="social-box">Indeed</a>
-        <a rel="fb" href="https://www.facebook.com/zach.grabowski.35" class="social-box">Facebook</a>
-      </div>
-    </section>
+      <section class="contact-form">
+        <h2>Just want to leave your name and a message? Get in touch with me!</h2>
+        <form action="mailto:grabowskizach11@gmail.com" method="POST" enctype="text/plain">
+          <label>Name:</label>
+          <input type="text" id="name" name="name" required>
 
-    <section class="contact-form">
-      <h2>Just want to leave your name and a message? Get in touch with me!</h2>
-      <form action="mailto:grabowskizach11@gmail.com" method="POST" enctype="text/plain">
-        <label>Name:</label>
-        <input type="text" id="name" name="name" required>
+          <label>Email:</label>
+          <input type="email" id="email" name="email" required>
 
-        <label>Email:</label>
-        <input type="email" id="email" name="email" required>
+          <label>Comments:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label>Comments:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
 
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Zachary Grabowski. All rights reserved.</p>
-  </footer>
-
+    <footer>
+      <p>&copy; 2025 Zachary Grabowski. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
