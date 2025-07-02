@@ -225,6 +225,12 @@ footer {
   color: var(--secondary-text);
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .social-icons {
   display: flex;
   flex-wrap: wrap;
