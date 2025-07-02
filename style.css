@@ -223,9 +223,6 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: var(--secondary-text);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 .social-icons {
