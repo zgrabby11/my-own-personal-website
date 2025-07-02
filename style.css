@@ -42,6 +42,7 @@ header {
   z-index: 1000;
   background-color: var(--surface);
   padding: 0.5rem 1rem;
+  text-align: center;
   height: 100px;
   display: flex;
   align-items: center;
@@ -52,8 +53,8 @@ header {
 
 
 header .resume-image img {
-  max-width: 140px;
-  max-height: 100px;
+  max-width: 130px;
+  max-height: 90px;
   margin: 0 auto 0.5rem auto;
   display: block;
   border-radius: 12px;
