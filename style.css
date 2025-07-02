@@ -53,7 +53,7 @@ header {
 
 header .resume-image img {
   max-width: 120px;
-  height: auto;
+  max-height: 40px;
   margin: 0 auto 0.5rem auto;
   display: block;
   border-radius: 12px;
