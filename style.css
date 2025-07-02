@@ -217,13 +217,15 @@ form button:hover {
 
 
 footer {
-  position: sticky;
   background-color: var(--surface);
   padding: 1rem 2rem;
   box-shadow: 0 -2px 8px var(--shadow-color);
   text-align: center;
   font-size: 0.9rem;
   color: var(--secondary-text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .social-icons {
